@@ -1,0 +1,52 @@
+{
+  "repo": {
+    "timestamp": 1567101688181,
+    "version": 18,
+    "name": "repo1",
+    "icon": "default-repo-icon.png",
+    "address": "https://gitlab.com/Vlad8161/repo1/raw/master/fdroid/repo",
+    "description": "repo1",
+    "mirrors": [
+      "https://gitlab.com/Vlad8161/repo1/raw/master/fdroid/repo/repo",
+      "https://raw.githubusercontent.com/Vlad8161/repo1/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "1",
+      "license": "Unknown",
+      "name": "Test",
+      "added": 1567099484822,
+      "icon": "com.example.test.1.png",
+      "packageName": "com.example.test",
+      "lastUpdated": 1567101688176
+    }
+  ],
+  "packages": {
+    "com.example.test": [
+      {
+        "added": 1567101688176,
+        "apkName": "app-debug.apk",
+        "hash": "86d8e08f7d04bdb2ba9d133b399d31e478e938022f7fd14baa6641fe7867af79",
+        "hashType": "sha256",
+        "minSdkVersion": "21",
+        "packageName": "com.example.test",
+        "sig": "4fb762d8a27f963ef670e8e38226a3bf",
+        "size": 3658098,
+        "targetSdkVersion": "26",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ]
+  }
+}
